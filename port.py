@@ -570,7 +570,7 @@ elif menu == "Experience":
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Aug 2026)")
+    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Present)")
     st.write("""
     ✔ Cleaned and processed datasets, improving data quality by ~25%  
     ✔ Conducted EDA, reducing manual analysis time by 30%  

@@ -311,7 +311,7 @@ section[data-testid="stSidebar"] .stRadio label {
             
 
 
-            /* 🔥 FORCE APPLY BUTTON STYLE */
+/* 🔥 FORCE APPLY BUTTON STYLE */
 .resume-wrapper {
     margin-top: 20px;
 }
@@ -322,7 +322,7 @@ section[data-testid="stSidebar"] .resume-wrapper a.resume-btn {
     width: 100% !important;
     text-align: center !important;
 
-    padding: 5px !important;
+    padding: 8px !important;
     border-radius: 14px !important;
 
     background: linear-gradient(135deg, #00c6ff, #0072ff) !important;

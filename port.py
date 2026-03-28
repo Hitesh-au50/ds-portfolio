@@ -152,43 +152,6 @@ section[data-testid="stSidebar"] {
 }
 
 /* ===============================
-   🔥 DOWNLOAD BUTTON (INSANE)
-=============================== */
-.sidebar-card a.resume-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    margin-top: 20px;
-    padding: 14px;
-
-    border-radius: 14px;
-
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
-    color: white !important;
-
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-}
-
-/* Glow Hover */
-.sidebar-card a.resume-btn:hover {
-    background: linear-gradient(135deg, #ff6a00, #ee0979);
-    transform: scale(1.08);
-
-    box-shadow: 0 0 30px rgba(255, 106, 0, 0.9);
-}
-
-/* Click */
-.sidebar-card a.resume-btn:active {
-    transform: scale(0.95);
-}
-
-/* ===============================
    💎 CARDS (GLASS UI)
 =============================== */
 .card {
@@ -570,7 +533,7 @@ elif menu == "Experience":
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Present)")
+    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Aug 2026)")
     st.write("""
     ✔ Cleaned and processed datasets, improving data quality by ~25%  
     ✔ Conducted EDA, reducing manual analysis time by 30%  

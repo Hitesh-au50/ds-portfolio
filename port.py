@@ -311,7 +311,7 @@ section[data-testid="stSidebar"] .stRadio label {
             
 
 
-/* 🔥 FORCE APPLY BUTTON STYLE */
+            /* 🔥 FORCE APPLY BUTTON STYLE */
 .resume-wrapper {
     margin-top: 20px;
 }
@@ -322,7 +322,7 @@ section[data-testid="stSidebar"] .resume-wrapper a.resume-btn {
     width: 100% !important;
     text-align: center !important;
 
-    padding: 8px !important;
+    padding: 14px !important;
     border-radius: 14px !important;
 
     background: linear-gradient(135deg, #00c6ff, #0072ff) !important;
@@ -423,12 +423,9 @@ if menu == "Home":
 
         st.markdown('<div class="card">', unsafe_allow_html=True)
 
-        st.header("🎯 Professional Summary")
+        st.header("🎯 Career Objective")
         st.write("""
-        Results-driven Data Analyst with hands-on experience in Python, SQL, and Power BI. 
-        Skilled in data cleaning, exploratory data analysis (EDA), and dashboard development. 
-        Proven ability to transform raw data into actionable insights, improving decision-making 
-        and business performance.
+        Detail-oriented and highly motivated Data Analyst fresher with hands-on experience in Python, SQL, Power BI, and Excel. Skilled in data cleaning, exploratory data analysis (EDA), and building interactive dashboards. Adept at transforming raw data into actionable insights to support business decisions. Eager to contribute analytical and problem-solving skills in a dynamic organization.
         """)
 
         st.header("💡 Why Hire Me?")
@@ -443,10 +440,11 @@ if menu == "Home":
 
         st.header("💪 Strengths")
         st.write("""
-        ✔ Strong analytical thinking  
-        ✔ Attention to detail  
-        ✔ Effective communication  
-        ✔ Fast learner & adaptable  
+        ✔ Strong analytical thinking and problem-solving  
+        ✔ High attention to detail and data accuracy  
+        ✔ Effective communication and teamwork  
+        ✔ Fast learner with adaptability to new technologies
+                 
         """)
 
     with col2:
@@ -473,7 +471,7 @@ if menu == "Home":
         },
         "🛠 Tools & Platforms": {
             "Excel": 88,
-            "Git & GitHub": 80,
+            "GitHub": 80,
             "Streamlit": 85,
             "Jupyter Notebook": 90
         }
@@ -508,19 +506,29 @@ elif menu == "Projects":
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    st.subheader("🚖 OLA Ride Analytics Dashboard")
-    st.write("""
-    ✔ Analyzed 10K+ ride records using Python & SQL  
-    ✔ Identified peak demand hours and reduced cancellations by ~15%  
-    ✔ Built interactive dashboards for KPI tracking  
-    """)
-
     st.subheader("🐦 Bird Vision Analytics")
     st.write("""
-    ✔ Analyzed large bird dataset for habitat trends  
-    ✔ Built Streamlit app for data accessibility  
-    ✔ Generated insights supporting conservation decisions  
+    ✔ Designed an interactive analytics platform to analyze bird observation data. 
+              
+    ✔ Generated insights on species behavior, habitat trends, and conservation patterns.
+              
+    ✔ Utilized Python, SQL, and Stream lit for data processing and visualization 
+             
+    ✔ Live Project: https://bird-analytics.streamlit.app/
+            
     """)
+    st.subheader("🚖 OLA Ride Analytics Dashboard")
+    st.write("""
+    ✔ Developed a dashboard to analyze ride demand, revenue, cancellations, and customer behavior 
+             
+    ✔ Identified key trends to improve operational efficiency and customer experience
+               
+    ✔ Tools Used: Python, SQL, Streamlit  
+             
+    ✔ Live Project: https://olaa-dashboard.streamlit.app/
+             
+    """)
+
 
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -533,19 +541,28 @@ elif menu == "Experience":
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Aug 2026)")
+    st.subheader("📊 Data Analyst Intern — Labmentix (Mar 2026 – Present)")
     st.write("""
-    ✔ Cleaned and processed datasets, improving data quality by ~25%  
-    ✔ Conducted EDA, reducing manual analysis time by 30%  
-    ✔ Built Power BI dashboards, improving reporting efficiency by 40%  
-    ✔ Delivered data-driven insights for business decisions  
+    ✔ Performed data cleaning and preprocessing on real-world datasets to improve data
+      quality.  
+      
+    ✔ Conducted exploratory data analysis (EDA) to identify trends, patterns, and anomalies. 
+    
+    ✔ Developed dashboards and visual reports to support data-driven decision-making. 
+    
+    ✔ Applied analytical thinking to solve business problems and derive actionable insights. 
+    
     """)
+    
 
     st.subheader("💻 Web Development Intern — LetsGrowMore (Aug 2023)")
     st.write("""
-    ✔ Developed responsive web apps, improving performance by ~20%  
-    ✔ Optimized code and reduced load time  
-    ✔ Collaborated in team-based project delivery  
+    ✔ Built responsive web applications using HTML, CSS, and JavaScript. 
+    
+    ✔ Collaborated on real-world projects to enhance development and debugging skills. 
+    
+    ✔ Strengthened problem-solving and logical thinking abilities. 
+    
     """)
 
     st.markdown('</div>', unsafe_allow_html=True)
